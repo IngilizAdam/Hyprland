@@ -238,6 +238,7 @@ class CKeybindManager {
     static SDispatchResult denyWindowFromGroup(std::string);
     static SDispatchResult global(std::string);
     static SDispatchResult event(std::string);
+    static SDispatchResult setProp(std::string);
     static SDispatchResult forceIdle(std::string);
 
     friend class CCompositor;
